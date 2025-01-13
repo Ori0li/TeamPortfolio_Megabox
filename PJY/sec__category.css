@@ -56,7 +56,7 @@
 }
 
 .movieLayout {
-  width: 100vw;
+  width: fit-content;
   display: flex;
   gap: 30px;
 }
@@ -126,4 +126,9 @@
 .movieLayout > .movie__card > .movie__card--sub {
   font-size: 10px;
   color: var(--gray-4);
+}
+
+.movieLayout > .movie__card > .movie__card--sub > i {
+  color: var(--color-accent);
+  padding-right: 2px;
 }
