@@ -1,0 +1,46 @@
+.mobile {
+  width: 768px;
+  margin: 0 auto;
+  background-color: var(--gray-2);
+  padding-bottom: 18px;
+}
+
+.mobile > img {
+  margin-left: 18px;
+  width: 732px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.mobileBox {
+  width: 732px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-bg);
+  border: none;
+  border-radius: 10px;
+}
+
+.infoBox {
+  align-items: center;
+  display: flex;
+  color: var(--gray-5);
+  gap: 5px;
+  padding: 15px;
+}
+
+.two::before {
+  padding-right: 100px;
+  content: "|";
+}
+
+.two::after {
+  padding-left: 100px;
+  content: "|";
+}
+
+.infoBox:last-child::after {
+  content: "";
+}
