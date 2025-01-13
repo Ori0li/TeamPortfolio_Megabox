@@ -1,0 +1,42 @@
+.container {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.container > main > .topcard > .allbtn {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  color: #999999;
+  background-color: white;
+}
+.container > main > .topcard > .search {
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 0.3px solid #999999;
+  color: #999999;
+  background-color: white;
+}
+
+.container > main > .topcard > .search > span {
+  margin-right: 530px;
+}
+
+.container > main > .topcard > .allbtn > .search > span > .maincard > img {
+  border-radius: 4px;
+}
+
+.container > main > .topcard > .allbtn .search .maincard .blacksister {
+  margin-top: 20px;
+}
+.date {
+  margin-top: 20px;
+}
