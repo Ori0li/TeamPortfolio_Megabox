@@ -1,0 +1,102 @@
+.store {
+  width: 768px;
+  background-color: var(--color-bg);
+  font-family: Paperlogy-8ExtraBold;
+}
+.store_main {
+  width: 100%;
+}
+.store_main > img {
+  width: 768px;
+  height: 354.13px;
+  object-fit: cover;
+}
+.store_contents {
+  width: 100%;
+  max-width: 732px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.store_bar {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+.store_bar--menu {
+  margin-right: 20px;
+  align-content: center;
+  padding: 0px 0px 4px;
+  font-weight: 400;
+  color: var(--color-text-light);
+  font-weight: 300;
+}
+.bar_menu--textbox {
+  padding: 0px 0px 4px;
+  font-weight: 700;
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 1px;
+  line-height: 35px;
+}
+.bar_menu--textline {
+  width: 27.61px;
+  height: 2;
+  border: 1px solid var(--color-primary);
+}
+.bluedot {
+  width: 4px;
+  height: 4px;
+  background-color: #14b9cb;
+  position: relative;
+  top: 9px;
+  left: -18px;
+  border-radius: 2px;
+}
+.store_product {
+  width: 100%;
+  max-width: 732px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.store_product--box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.product_box--product {
+  display: flex;
+  flex-direction: column;
+}
+.product_box--product > img {
+  width: 361px;
+  height: 361px;
+  background-color: var(--gray-2);
+}
+.product_title {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  padding-top: 12px;
+  line-height: 24px;
+}
+.product_price {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.product_price--final {
+  font-size: var(--font-size-md);
+  color: var(--gray-6);
+}
+.product_price--before {
+  font-size: 12px;
+  color: var(--color-text-light);
+  text-decoration: line-through;
+  position: relative;
+  top: 2.5px;
+}
