@@ -96,7 +96,6 @@
   font-size: 12px;
 
   padding: 5px 2px;
-  background-color: green;
   border-radius: 3px;
 
   bottom: 10px;
@@ -131,4 +130,32 @@
 .movieLayout > .movie__card > .movie__card--sub > i {
   color: var(--color-accent);
   padding-right: 2px;
+}
+
+.green {
+  background-color: var(--color-green);
+}
+
+.orange {
+  background-color: var(--color-orange);
+}
+
+.red {
+  background-color: var(--color-red);
+}
+
+.movie::-webkit-scrollbar {
+  height: 9px;
+}
+
+.movie::-webkit-scrollbar-thumb {
+  background-color: var(--gray-5);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.movie::-webkit-scrollbar-track {
+  background-color: var(--gray-3);
+  border-radius: 10px;
 }

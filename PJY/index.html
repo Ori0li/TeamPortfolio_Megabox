@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../common/reset.css" />
     <link rel="stylesheet" href="../common/root.css" />
     <link rel="stylesheet" href="../common/header.css" />
+    <link rel="stylesheet" href="../common/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -23,41 +24,57 @@
     <link rel="stylesheet" href="sec__preview.css" />
     <link rel="stylesheet" href="sec_event.css" />
     <link rel="stylesheet" href="sec__special.css" />
-    <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
     <div class="mobile">
       <header>
-        <div class="nav__section">
+        <article class="nav__section">
           <div class="nav__Top">
-            <div class="logo">
-              <img src="../assert/메가박스.png" alt="" />
-            </div>
-            <div class="nav">
-              <div><i class="fa-solid fa-ticket"></i></div>
-              <div><i class="fa-solid fa-bars"></i></div>
-            </div>
+            <figure class="nav__Top--items">
+              <div class="logo">
+                <img src="../assert/메가박스.png" alt="" />
+              </div>
+              <div class="nav">
+                <div><i class="fa-solid fa-ticket"></i></div>
+                <div><i class="fa-solid fa-bars"></i></div>
+              </div>
+            </figure>
+            <ul class="navItem">
+              <li>
+                <a href="../PJY/index.html">홈</a>
+              </li>
+              <li><a href="../JHJ/index.html">이벤트</a></li>
+              <li><a href="../WHS/index.html">스토어</a></li>
+              <li><a href="../LGN/index.html">선호극장</a></li>
+            </ul>
           </div>
-          <ul class="navItem">
-            <li>홈</li>
-            <li>이벤트</li>
-            <li>스토어</li>
-            <li>선호극장</li>
-          </ul>
-        </div>
+          <div class="nav__Bottom">
+            <figure class="home__button">
+              <img src="../assert/home_icon.png" alt="" />
+              <span>홈</span>
+            </figure>
+            <figure class="reservation__button">
+              <img src="../assert/btn_book_52.png" alt="" />
+            </figure>
+            <figure class="order__button">
+              <img src="../assert/popcorn_icon.png" alt="" />
+              <span>모바일오더</span>
+            </figure>
+          </div>
+        </article>
       </header>
 
       <section class="main__section">
-        <div class="photo">
+        <figure class="photo">
           <img
             src="https://img.megabox.co.kr/SharedImg/mobileMain/2025/01/09/DeCn5oyx1iKNQ4EqKzI626KIKDqv5nlW.jpg"
             alt=""
           />
-        </div>
+        </figure>
       </section>
 
       <section class="category__section">
-        <div class="category">
+        <article class="category">
           <ul class="category--item">
             <li>무비차트</li>
             <li>상영예정</li>
@@ -66,60 +83,60 @@
             <li>클소</li>
             <li>필소</li>
           </ul>
-          <div class="arrow">
+          <figure class="arrow">
             <i class="fa-solid fa-arrow-right"></i>
-          </div>
-        </div>
-        <div class="movie">
+          </figure>
+        </article>
+        <article class="movie">
           <div class="movieLayout">
-            <div class="movie__card">
+            <figure class="movie__card">
               <div class="movie__card--photo">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/2025/01/06/veoYkRw8THPbrE9FobWUP1BVmEbMOXnp_600.jpg"
                   alt=""
                 />
                 <div class="rating">1</div>
-                <div class="age">ALL</div>
+                <div class="age green">ALL</div>
               </div>
               <div class="movie__card--button">바로예매</div>
               <div class="movie__card--title">말할수 없는 비밀</div>
               <div class="movie__card--sub">누적관객수 0 · D-15</div>
-            </div>
+            </figure>
             <div class="movie__card">
-              <div class="movie__card--photo">
+              <figure class="movie__card--photo">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/2025/01/06/0XDjkXDLm7waDVJ9leltSNNBOrEpLGEU_600.jpg"
                   alt=""
                 />
                 <div class="rating">2</div>
-                <div class="age">15</div>
-              </div>
+                <div class="age orange">15</div>
+              </figure>
               <div class="movie__card--button">바로예매</div>
               <div class="movie__card--title">검은 수녀들</div>
               <div class="movie__card--sub">누적관객수 0 · D-11</div>
             </div>
             <div class="movie__card">
-              <div class="movie__card--photo">
+              <figure class="movie__card--photo">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/2025/01/10/WAC0I4UtsbCRjs4IvT4Vht9QYvdRTnDD_600.jpg"
                   alt=""
                 />
                 <div class="rating">3</div>
-                <div class="age">ALL</div>
-              </div>
+                <div class="age orange">15</div>
+              </figure>
               <div class="movie__card--button">바로예매</div>
               <div class="movie__card--title">히트맨2</div>
               <div class="movie__card--sub">누적관객수 247 · D-9</div>
             </div>
             <div class="movie__card">
-              <div class="movie__card--photo">
+              <figure class="movie__card--photo">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/2024/12/31/nj18f6ZDFpLxKy433HhWPsP39RPpTFrM_600.jpg"
                   alt=""
                 />
                 <div class="rating">4</div>
-                <div class="age">ALL</div>
-              </div>
+                <div class="age orange">15</div>
+              </figure>
               <div class="movie__card--button">바로예매</div>
               <div class="movie__card--title">보고타</div>
               <div class="movie__card--sub">
@@ -127,14 +144,14 @@
               </div>
             </div>
             <div class="movie__card">
-              <div class="movie__card--photo">
+              <figure class="movie__card--photo">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/2025/01/08/voFgSlrB9J2LLJqj7p6L6Zx03X3qFf6O_600.jpg"
                   alt=""
                 />
                 <div class="rating">5</div>
-                <div class="age">ALL</div>
-              </div>
+                <div class="age orange">15</div>
+              </figure>
               <div class="movie__card--button">하얼빈</div>
               <div class="movie__card--title">말할수 없는 비밀</div>
               <div class="movie__card--sub">
@@ -142,7 +159,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="myinfo__section">
@@ -224,7 +241,7 @@
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
-          <div class="moviefeed--photo">
+          <figure class="moviefeed--photo">
             <img
               src="https://img.megabox.co.kr/SharedImg/movieFeed/2025/01/02/FsVfIMjINU2COPpaape852MGjCxE2uAU.jpg"
               alt=""
@@ -233,27 +250,27 @@
               <i class="fa-regular fa-thumbs-up"></i>
               71
             </div>
-          </div>
+          </figure>
           <div class="moviefeed__miniLayout">
             <div class="moviefeed__mini">
-              <div class="moivefeed__mini--photo">
+              <figure class="moivefeed__mini--photo">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/movieFeed/2024/11/28/uDU6UFcdJMbeKJeiUUUELA5W0aKkuwey.jpg"
                   alt=""
                 />
-              </div>
+              </figure>
               <div class="moivefeed__mini--text">
                 <h2>더 새로워진 메가박스 앱 업데이트를 100% 활용하는 방법</h2>
                 <p>업데이트된 기능들을 함께 살펴보세요!</p>
               </div>
             </div>
             <div class="moviefeed__mini">
-              <div class="moivefeed__mini--photo">
+              <figure class="moivefeed__mini--photo">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/movieFeed/2024/11/22/Lh7fogzzm2VhO7SpkVpugNK4SdbgHgdp.jpg"
                   alt=""
                 />
-              </div>
+              </figure>
               <div class="moivefeed__mini--text">
                 <h2>시사회에서 박수가 쏟아졌다</h2>
                 <p>"오즈머니나!" 영화 <위키드>흥행 시작!</p>
@@ -262,6 +279,7 @@
           </div>
         </div>
       </section>
+
       <section class="preview__section">
         <div class="preview">
           <div class="preview--title">
@@ -272,31 +290,32 @@
           </div>
           <div class="preview__cardLayout">
             <div class="preview__Layout">
-              <div class="preview__card">
+              <figure class="preview__card">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/event/2025/01/13/ewfBc8aXF2JqmZVm7MKPSaOKEEfKWJa2.jpg"
                   alt=""
                 />
                 <h2><검은 수녀들> 2주차 무대인사</h2>
-              </div>
-              <div class="preview__card">
+              </figure>
+              <figure class="preview__card">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/event/2025/01/10/8ulXnQfmo8HWQTGDyoG2CMULeXPZuRbT.jpg"
                   alt=""
                 />
                 <h2><검은 수녀들> 설 연휴 무대인사</h2>
-              </div>
-              <div class="preview__card">
+              </figure>
+              <figure class="preview__card">
                 <img
                   src="https://img.megabox.co.kr/SharedImg/event/2025/01/09/wIIbmTocxjYy08pWtOxJVem1Hx7k0WMI.jpg"
                   alt=""
                 />
                 <h2><말할 수 없는 비밀> 개봉주&2주차 무대인사</h2>
-              </div>
+              </figure>
             </div>
           </div>
         </div>
       </section>
+
       <section class="event__section">
         <div class="event">
           <div class="event--title">
@@ -350,6 +369,7 @@
           </div>
         </div>
       </section>
+
       <section class="special__section">
         <div class="special">
           <div class="special--title">

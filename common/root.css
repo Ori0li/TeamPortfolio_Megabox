@@ -19,6 +19,9 @@
 
   /* 액센트(포인트) 컬러 */
   --color-accent: #660ed8; /* Violet */
+  --color-green: #269c55;
+  --color-orange: #dd742e;
+  --color-red: #d92b35;
 
   /* 텍스트 & 배경 컬러 */
   --color-text: #030303;

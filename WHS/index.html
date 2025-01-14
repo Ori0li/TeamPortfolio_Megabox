@@ -6,40 +6,232 @@
     <title>Document</title>
     <link rel="stylesheet" href="../common/reset.css" />
     <link rel="stylesheet" href="../common/root.css" />
+    <link rel="stylesheet" href="../common/header.css" />
+    <link rel="stylesheet" href="../common/footer.css" />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body class="store">
-    <!-- 768px -->
-    <section class="store_main">
-      <img src="main.jpg" alt="" />
-      <article class="store_contents">
-        <div class="store_bar">
-          <span class="store_bar--menu bar_menu--textbox"
-            >전체
-            <div class="bar_menu--textline"></div>
-          </span>
-          <span class="store_bar--menu">기프트카드</span>
-          <div class="bluedot"></div>
-          <span class="store_bar--menu">메가티켓</span>
-          <span class="store_bar--menu">팝콘/음료/굿즈</span>
-          <span class="store_bar--menu">포인트몰</span>
-          <div class="bluedot"></div>
-        </div>
-      </article>
-      <article class="store_product">
-        <div class="store_product--box">
-          <div class="product_box--product">
-            <img src="product01.png" alt="" />
-            <span class="product_title"
-              >메가박스 스타벅스 데비 텀블러 패키지</span
-            >
-            <div class="product_price">
-              <span class="product_price--final">99,000원</span>
-              <span class="product_price--before">130,000원</span>
+  <body>
+    <div class="store">
+      <header>
+        <div class="nav__section">
+          <div class="nav__Top">
+            <div class="nav__Top--items">
+              <div class="logo">
+                <img src="../assert/메가박스.png" alt="" />
+              </div>
+              <div class="nav">
+                <div><i class="fa-solid fa-ticket"></i></div>
+                <div><i class="fa-solid fa-bars"></i></div>
+              </div>
+            </div>
+            <ul class="navItem">
+              <li>
+                <a href="../PJY/index.html">홈</a>
+              </li>
+              <li><a href="../JHJ/index.html">이벤트</a></li>
+              <li><a href="../WHS/index.html">스토어</a></li>
+              <li><a href="../LGN/index.html">선호극장</a></li>
+            </ul>
+          </div>
+          <div class="nav__Bottom">
+            <div class="home__button">
+              <img src="../assert/home_icon.png" alt="" />
+              <span>홈</span>
+            </div>
+            <div class="reservation__button">
+              <img src="../assert/btn_book_52.png" alt="" />
+            </div>
+            <div class="order__button">
+              <img src="../assert/popcorn_icon.png" alt="" />
+              <span>모바일오더</span>
             </div>
           </div>
         </div>
-      </article>
-    </section>
+      </header>
+
+      <!-- 768px -->
+      <section class="store_main">
+        <article class="store_main--img">
+          <img src="main.jpg" alt="" />
+          <div class="store_img--countbox">
+            <span>1</span>
+            <div class="countbox_line"></div>
+            <span style="opacity: 0.5">2</span>
+          </div>
+        </article>
+        <article class="store_contents">
+          <div class="store_bar">
+            <span class="store_bar--menu bar_menu--textbox"
+              >전체
+              <div class="bar_menu--textline"></div>
+            </span>
+            <span class="store_bar--menu">기프트카드</span>
+            <div class="bluedot"></div>
+            <span class="store_bar--menu">메가티켓</span>
+            <span class="store_bar--menu">팝콘/음료/굿즈</span>
+            <span class="store_bar--menu">포인트몰</span>
+            <div class="bluedot"></div>
+          </div>
+        </article>
+        <article class="store_product">
+          <div class="store_product--box">
+            <div class="product_box--product">
+              <img src="product01.png" alt="" />
+              <div class="product_img--textbox img_textbox--bora">EVENT</div>
+              <span class="product_title">
+                메가박스 스타벅스 데비 텀블러 패키지
+              </span>
+              <div class="product_price">
+                <span class="product_price--final">99,000원</span>
+                <span class="product_price--before">130,000원</span>
+              </div>
+            </div>
+            <div class="product_box--product">
+              <img src="product02.png" alt="" />
+              <div class="product_img--textbox img_textbox--bora">EVENT</div>
+              <span class="product_title">
+                디즈니 시네마 무비패스 W. 웰컴 패키지
+              </span>
+              <div class="product_price">
+                <span class="product_price--final">60,000원</span>
+                <span class="product_price--before">75,000원</span>
+              </div>
+            </div>
+          </div>
+          <div class="store_product--box">
+            <div class="product_box--product">
+              <img src="product03.png" alt="" />
+              <div class="product_img--textbox img_textbox--blue">NEW</div>
+              <span class="product_title"> 황태스낵 </span>
+              <div class="product_price">
+                <span class="product_price--final">5,900원</span>
+                <span class="product_price--before"></span>
+              </div>
+            </div>
+            <div class="product_box--product">
+              <img src="product04.png" alt="" />
+              <span class="product_title"> 평일 일반 2D 관람쿠폰 </span>
+              <div class="product_price">
+                <span class="product_price--final">9,900 Point</span>
+                <span class="product_price--before"></span>
+              </div>
+            </div>
+          </div>
+          <div class="store_product--box">
+            <div class="product_box--product">
+              <img src="product05.png" alt="" />
+              <div class="product_img--textbox img_textbox--blue">NEW</div>
+              <span class="product_title"> 오징어튀김 세트 </span>
+              <div class="product_price">
+                <span class="product_price--final">8,900원</span>
+                <span class="product_price--before"></span>
+              </div>
+            </div>
+            <div class="product_box--product">
+              <img src="product06.png" alt="" />
+              <div class="product_img--textbox img_textbox--blue">NEW</div>
+              <span class="product_title"> 오징어튀김 </span>
+              <div class="product_price">
+                <span class="product_price--final">6,900원</span>
+                <span class="product_price--before"></span>
+              </div>
+            </div>
+          </div>
+          <div class="store_product--box">
+            <div class="product_box--product">
+              <img src="product07.png" alt="" />
+              <div class="product_img--textbox img_textbox--blue">NEW</div>
+              <span class="product_title"> 메가박스 기프트카드 A </span>
+              <div class="product_price">
+                <span class="product_price--final">금액충전형</span>
+                <span class="product_price--before"></span>
+              </div>
+            </div>
+            <div class="product_box--product">
+              <img src="product08.png" alt="" />
+              <div class="product_img--textbox img_textbox--blue">NEW</div>
+              <span class="product_title"> 메가박스 기프트카드 B </span>
+              <div class="product_price">
+                <span class="product_price--final">금액 충전형</span>
+                <span class="product_price--before"></span>
+              </div>
+            </div>
+          </div>
+          <div class="store_product--box">
+            <div class="product_box--product">
+              <img src="product09.png" alt="" />
+              <div class="product_img--textbox img_textbox--blue">NEW</div>
+              <span class="product_title"> 메가박스 기프트카드 C </span>
+              <div class="product_price">
+                <span class="product_price--final">금액충전형</span>
+                <span class="product_price--before"></span>
+              </div>
+            </div>
+            <div class="product_box--product">
+              <img src="product10.png" alt="" />
+              <div class="product_img--textbox img_textbox--blue">NEW</div>
+              <span class="product_title"> 메가박스 기프트카드 위로 </span>
+              <div class="product_price">
+                <span class="product_price--final">금액 충전형</span>
+                <span class="product_price--before"></span>
+              </div>
+            </div>
+          </div>
+          <div class="store_product--box">
+            <div class="product_box--product">
+              <img src="product11.png" alt="" />
+              <div class="product_img--textbox img_textbox--bora">BEST</div>
+              <span class="product_title"> 러브콤보패키지 </span>
+              <div class="product_price">
+                <span class="product_price--final">32,000원</span>
+                <span class="product_price--before">36,000원</span>
+              </div>
+            </div>
+            <div class="product_box--product">
+              <img src="product12.png" alt="" />
+              <span class="product_title"> 패밀리패키지 </span>
+              <div class="product_price">
+                <span class="product_price--final">45,000원</span>
+                <span class="product_price--before">52,000원</span>
+              </div>
+            </div>
+          </div>
+          <div class="store_product--box">
+            <div class="product_box--product">
+              <img src="product13.png" alt="" />
+              <span class="product_title"> 영화 2천원 할인쿠폰 </span>
+              <div class="product_price">
+                <span class="product_price--final">1000 Point</span>
+                <span class="product_price--before">36,000원</span>
+              </div>
+            </div>
+            <div class="product_box--product">
+              <img src="product14.png" alt="" />
+              <div class="product_img--textbox img_textbox--bora">BEST</div>
+              <span class="product_title"> 더블콤보 </span>
+              <div class="product_price">
+                <span class="product_price--final">12,900원</span>
+                <span class="product_price--before">13,900원</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <footer>
+        <div class="footer__section">
+          <img
+            src="https://m.megabox.co.kr/static/mb/images/2024renewal/common/logo_megabox_g.png"
+            alt=""
+          />
+          <ul>
+            <li>이용약관</li>
+            <li>개인정보처리방침</li>
+            <li>위치기반서비스이용약관</li>
+            <li>PC버전</li>
+          </ul>
+          <p class="copy">© MegaboxJoongAng, Inc.</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
