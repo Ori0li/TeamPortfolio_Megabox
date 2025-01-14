@@ -1,5 +1,5 @@
 header {
-  width: 444px;
+  width: 480px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -75,7 +75,7 @@ header > .nav__section {
 /* 하단 메뉴바 */
 
 .nav__Bottom {
-  width: 444px;
+  width: 480px;
   position: fixed;
   bottom: 0;
 
