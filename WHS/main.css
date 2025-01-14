@@ -1,21 +1,20 @@
 .store {
-  width: 768px;
+  width: 480px;
   margin: 0 auto;
   background-color: var(--color-bg);
   font-family: Paperlogy-8ExtraBold;
 }
 .store_main {
-  width: 768px;
+  width: 480px;
   padding-top: 102px;
 }
 .store_main--img {
-  width: 768px;
+  width: 480px;
   object-fit: cover;
   position: relative;
 }
 .store_main--img > img {
-  width: 768px;
-  height: 354.13px;
+  width: 480px;
   object-fit: cover;
 }
 .store_img--countbox {
@@ -30,8 +29,8 @@
   font-size: 12px;
   color: var(--gray-0);
   position: absolute;
-  top: 325px;
-  left: 725px;
+  top: 10px;
+  right: 10px;
 }
 .countbox_line {
   width: 1px;
@@ -95,7 +94,7 @@
 }
 .store_product {
   width: 100%;
-  max-width: 732px;
+  max-width: 444px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -119,7 +118,7 @@
   border-radius: 4px;
   letter-spacing: -1px;
   position: absolute;
-  margin: 10px;
+  margin: 7px;
 }
 .img_textbox--bora {
   background-color: #ae86ff;
@@ -128,8 +127,8 @@
   background-color: #14b9cb;
 }
 .product_box--product > img {
-  width: 361px;
-  height: 361px;
+  width: 220px;
+  height: 220px;
   background-color: var(--gray-2);
   border-radius: 4px;
   transition: all 0.5s;
@@ -139,7 +138,7 @@
   transform: scale(1.01);
 }
 .product_title {
-  font-size: var(--font-size-sm);
+  font-size: 14px;
   color: var(--color-text);
   padding-top: 12px;
   line-height: 24px;

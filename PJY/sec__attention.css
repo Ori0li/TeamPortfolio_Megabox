@@ -12,8 +12,7 @@
 
 .attention__section > .attention {
   width: 100%;
-  overflow: auto;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .attention__section > .attention > .productLayout {
@@ -37,7 +36,7 @@
   font-size: var(--font-size-sm);
 }
 
-.attention::-webkit-scrollbar {
+/* .attention::-webkit-scrollbar {
   height: 9px;
 }
 
@@ -51,4 +50,4 @@
 .attention::-webkit-scrollbar-track {
   background-color: var(--gray-3);
   border-radius: 10px;
-}
+} */

@@ -1,6 +1,6 @@
 .mobile {
   font-family: "Paperlogy-8ExtraBold";
-  width: 768px;
+  width: 480px;
   height: 100vh;
   margin: 0 auto;
   background: rgb(238, 238, 238);
@@ -15,14 +15,14 @@
 .mobile > img {
   padding-top: 160px;
   margin-left: 18px;
-  width: 732px;
+  width: 444px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 18px;
 }
 
 .mobileBox {
-  width: 732px;
+  width: 444px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -40,13 +40,16 @@
   padding: 15px;
 }
 
+.infoBox > p {
+  font-size: 14px;
+}
 .two::before {
-  padding-right: 100px;
+  padding-right: 50px;
   content: "|";
 }
 
 .two::after {
-  padding-left: 100px;
+  padding-left: 50px;
   content: "|";
 }
 
