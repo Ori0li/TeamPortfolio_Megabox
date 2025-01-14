@@ -1,11 +1,13 @@
 .mobile {
   width: 768px;
+  height: 100vh;
   margin: 0 auto;
-  background-color: var(--gray-2);
+  background-color: var(--gray-1);
   padding-bottom: 18px;
 }
 
 .mobile > img {
+  padding-top: 100px;
   margin-left: 18px;
   width: 732px;
   object-fit: cover;
@@ -21,6 +23,7 @@
   background-color: var(--color-bg);
   border: none;
   border-radius: 10px;
+  margin-bottom: 25px;
 }
 
 .infoBox {

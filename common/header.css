@@ -62,3 +62,26 @@ header > .nav__section {
 .navItem > li:hover {
   color: var(--color-text);
 }
+
+.location {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  border-top: 1px solid var(--gray-4);
+}
+
+.city {
+  color: var(--color-bg);
+  background-color: var(--color-accent);
+  border: none;
+  border-radius: 8px;
+  padding: 5px 7px;
+}
+
+.movie {
+  font-size: var(--font-size-xs);
+  border: 1px solid var(--gray-4);
+  border-radius: 5px;
+  background-color: inherit;
+  color: var(--gray-5);
+}

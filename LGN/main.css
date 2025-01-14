@@ -4,8 +4,12 @@
   background-color: var(--color-bg);
   padding: 40px 0px 30px 0px;
 }
+.pic {
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
 
-.theater > img {
+.pic > img {
   margin-left: 18px;
   width: 732px;
   object-fit: cover;
@@ -17,9 +21,266 @@
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+  width: 732px;
+  margin: 0 auto;
 }
 
 .now > h2 {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-lg);
   color: var(--gray-7);
+}
+
+.choice {
+  display: flex;
+  gap: 5px;
+  color: var(--gray-4);
+  font-size: var(--font-size-md);
+}
+
+.solid::after {
+  padding-left: 5px;
+  content: "|";
+}
+
+.choice > li:hover {
+  color: var(--color-primary);
+}
+
+.movieBox {
+  width: 100%;
+  height: 256px;
+  margin-left: 18px;
+  display: flex;
+  gap: 15px;
+  padding-top: 20px;
+  background-color: var(--color-bg);
+}
+
+.movielist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.movieBox {
+  padding-bottom: 20px;
+  height: fit-content;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.imgBox {
+  position: relative;
+}
+
+.imgBox > img {
+  width: 150px;
+  height: 214px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.movielist > p {
+  color: var(--color-accent);
+  background-color: inherit;
+  border: 1px solid var(--color-accent);
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 0px;
+  font-weight: 600;
+}
+
+.Info {
+  width: 732px;
+  margin: 0 auto;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Info > h2 {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+  padding-bottom: 15px;
+}
+
+.local {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.Card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-2);
+  border-radius: 5px;
+}
+
+.Card > button {
+  width: fit-content;
+  font-size: var(--font-size-sm);
+  border: none;
+  background-color: inherit;
+  margin: 10px 0px 15px 3px;
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 15px 10px;
+  padding-right: 15px;
+}
+
+.Card > div > span {
+  font-weight: 700;
+}
+
+.cardInfo > p {
+  color: var(--gray-3);
+}
+
+.sub {
+  width: 100%;
+  background-color: #f2d1f3;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  margin: 30px 0px 40px 0px;
+  padding-top: 10px;
+}
+
+.subTitle {
+  width: 50%;
+  background-color: inherit;
+  margin: 15px 0px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.subTitle > p {
+  font-size: var(--font-size-xs);
+}
+
+.sub > section {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.sub > section > i {
+  padding-right: 15px;
+  color: var(--color-bg);
+  font-size: var(--font-size-xl);
+}
+
+.chair {
+  width: fit-content;
+  border-radius: 9999px;
+  border: none;
+}
+
+.chair > i {
+  font-size: var(--font-size-xl);
+  padding: 20px 15px;
+}
+
+.economy {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 8px;
+  font-size: var(--font-size-sm);
+}
+
+.blank {
+  background-color: var(--gray-1);
+  height: 10px;
+  width: 100%;
+}
+
+.way {
+  width: 732px;
+  margin: 0 auto;
+  background-color: var(--color-bg);
+  padding-top: 30px;
+}
+
+.way > section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.way > section > h2 {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+  padding-bottom: 25px;
+}
+
+.way > section > button {
+  width: fit-content;
+  border: 1px solid var(--gray-4);
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--color-bg);
+  font-size: var(--font-size-xs);
+}
+
+.way > li {
+  padding-top: 15px;
+  font-size: var(--font-size-xs);
+  color: var(--gray-5);
+  padding-bottom: 7px;
+}
+
+.way > h2 {
+  padding-top: 30px;
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: var(--font-size-lg);
+  padding-bottom: 25px;
+}
+
+.space {
+  margin-bottom: 30px;
+}
+
+.way > h6 {
+  font-size: var(--font-size-sm);
+}
+
+.notice {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 20px 0px;
+  border-bottom: 1px solid var(--gray-2);
+}
+
+.date {
+  display: flex;
+  gap: 5px;
+  font-size: var(--font-size-xs);
+}
+
+.date > span {
+  color: #a1ded2;
+}
+
+.date > p::before {
+  padding-right: 5px;
+  content: "|";
+}
+
+.date > p {
+  color: var(--gray-3);
+}
+
+.notice > p {
+  color: var(--gray-3);
+  font-size: var(--font-size-xs);
 }
