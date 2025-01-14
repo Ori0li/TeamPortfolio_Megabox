@@ -1,0 +1,54 @@
+.attention__section {
+  width: 100%;
+  padding: var(--spacing-md);
+
+  font-family: "Paperlogy-8ExtraBold";
+}
+
+.attention__section > .attention > h2 {
+  font-size: var(--font-size-lg);
+  margin-bottom: 20px;
+}
+
+.attention__section > .attention {
+  width: 100%;
+  overflow: auto;
+  overflow-y: hidden;
+}
+
+.attention__section > .attention > .productLayout {
+  width: fit-content;
+  display: flex;
+  gap: 20px;
+}
+
+.productLayout > .product__card {
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.productLayout > .product__card > img {
+  width: 100%;
+  margin-bottom: var(--spacing-xs);
+  border-radius: var(--border-radius-lg);
+}
+
+.productLayout > .product__card > p {
+  font-size: var(--font-size-sm);
+}
+
+.attention::-webkit-scrollbar {
+  height: 9px;
+}
+
+.attention::-webkit-scrollbar-thumb {
+  background-color: var(--gray-5);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.attention::-webkit-scrollbar-track {
+  background-color: var(--gray-3);
+  border-radius: 10px;
+}

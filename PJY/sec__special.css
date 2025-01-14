@@ -1,0 +1,85 @@
+.special__section {
+  width: 100%;
+  padding: var(--spacing-md);
+  margin-bottom: 130px;
+  font-family: "Paperlogy-8ExtraBold";
+}
+
+.sepecial__section > .special {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.special__section > .special > .special--title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.special__section > .special > .special--title > h2 {
+  font-size: var(--font-size-lg);
+}
+
+.special__section > .special > .special--title > .arrow {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #eeeeee;
+  border-radius: 9999px;
+  padding: 8px;
+}
+
+.special__iconsLayout {
+  display: flex;
+  gap: 20px;
+
+  margin-bottom: 10px;
+}
+
+.special__icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--gray-2);
+  border-radius: 9999px;
+  border: 3px solid var(--gray-3);
+  transition: all 0.4s;
+
+  padding: 10px;
+}
+
+.special__icon > img {
+  width: 100%;
+}
+
+.special__icon:hover {
+  border: 3px solid var(--color-accent);
+}
+
+.special__photo {
+  position: relative;
+}
+
+.special__photo > img {
+  width: 100%;
+  border-radius: var(--border-radius-lg);
+}
+
+.special__photo > .special__photo--text {
+  color: var(--color-bg);
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.special__photo > .special__photo--text > .special--name {
+  font-size: var(--font-size-lg);
+  margin-bottom: 10px;
+}
+
+.special__photo > .special__photo--text > .special--info {
+  line-height: 20px;
+  font-size: var(--font-size-sm);
+  color: var(--gray-3);
+}

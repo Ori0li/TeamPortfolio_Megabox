@@ -1,0 +1,77 @@
+.preview__section {
+  width: 100%;
+  padding: var(--spacing-md);
+
+  font-family: "Paperlogy-8ExtraBold";
+}
+
+.preview__section > .preview {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.preview__section > .preview > .preview--title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.preview__section > .preview > .preview--title > h2 {
+  font-size: var(--font-size-lg);
+}
+
+.preview__section > .preview > .preview--title > .arrow {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #eeeeee;
+  border-radius: 9999px;
+  padding: 8px;
+}
+
+.preview > .preview__cardLayout {
+  display: flex;
+  gap: var(--spacing-lg);
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.preview > .preview__cardLayout > .preview__Layout {
+  display: flex;
+  gap: 10px;
+}
+
+.preview > .preview__cardLayout > .preview__Layout > .preview__card {
+  width: 300px;
+  padding-bottom: var(--spacing-md);
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.preview > .preview__cardLayout > .preview__Layout > .preview__card > img {
+  width: 100%;
+  border-radius: var(--border-radius-lg);
+}
+
+.preview > .preview__cardLayout > .preview__Layout > .preview__card > h2 {
+  font-size: var(--font-size-sm);
+}
+
+.preview__cardLayout::-webkit-scrollbar {
+  height: 9px;
+}
+
+.preview__cardLayout::-webkit-scrollbar-thumb {
+  background-color: var(--gray-5);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.preview__cardLayout::-webkit-scrollbar-track {
+  background-color: var(--gray-3);
+  border-radius: 10px;
+}

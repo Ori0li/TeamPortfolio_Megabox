@@ -1,0 +1,119 @@
+header {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-family: "Paperlogy-8ExtraBold";
+  background-color: var(--color-bg);
+
+  position: fixed;
+  top: 0;
+
+  z-index: 1;
+}
+
+header > .nav__section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 상단 메뉴바바 */
+
+.nav__Top {
+  width: 100%;
+  padding: var(--spacing-lg);
+}
+
+.nav__Top > .nav__Top--items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__Top > .nav__Top--items > .logo {
+  width: 100px;
+}
+
+.nav__Top > .nav__Top--items > .logo > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.nav__Top > .nav__Top--items > .nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav__Top > .nav__Top--items > .nav > li {
+  color: var(--gray-6);
+  font-size: var(--font-size-lg);
+}
+
+.navItem {
+  display: flex;
+  gap: 25px;
+
+  font-size: var(--font-size-md);
+
+  padding: var(--spacing-md) 0;
+}
+
+.navItem > li {
+  color: var(--gray-5);
+  font-size: var(--font-size-md);
+  font-weight: 900;
+  transition: all 0.4s;
+}
+
+.navItem > li:hover {
+  color: var(--color-text);
+}
+
+/* 하단 메뉴바 */
+
+.nav__Bottom {
+  width: 768px;
+  position: fixed;
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-bg);
+  border-top: 1px solid var(--gray-3);
+}
+
+.nav__Bottom > .home__button,
+.order__button,
+.reservation__button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav__Bottom > .order__button > img {
+  width: 20px;
+  height: 20px;
+}
+
+.nav__Bottom > .order__button > span {
+  font-size: 12px;
+}
+
+.nav__Bottom > .home__button > img {
+  width: 20px;
+  height: 20px;
+}
+
+.nav__Bottom > .home__button > span {
+  font-size: 12px;
+}
+
+.nav__Bottom > .reservation__button > img {
+  width: 50px;
+  height: 50px;
+}
