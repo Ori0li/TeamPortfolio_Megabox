@@ -24,13 +24,13 @@ header > .nav__section {
 
 .nav__Top {
   width: 100%;
-  padding: var(--spacing-lg);
 }
 
 .nav__Top > .nav__Top--items {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: var(--spacing-md);
 }
 
 .nav__Top > .nav__Top--items > .logo {
@@ -58,7 +58,7 @@ header > .nav__section {
 
   font-size: var(--font-size-md);
 
-  padding: var(--spacing-md) 0;
+  padding: var(--spacing-md);
 }
 
 .navItem > li {
