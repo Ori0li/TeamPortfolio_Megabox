@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   height: 30vh;
-  background-color: var(--gray-3);
+  background-color: var(--gray-1);
 
   font-family: "Paperlogy-8ExtraBold";
 
@@ -20,14 +20,14 @@ footer {
   width: 130px;
   margin-bottom: 20px;
 
-  color: var(--gray-5);
+  color: var(--gray-3);
   font-size: var(--font-size-sm);
 }
 
 .footer__section > ul {
   display: flex;
   gap: 10px;
-  color: var(--gray-5);
+  color: var(--gray-3);
   font-size: var(--font-size-sm);
 }
 
@@ -42,6 +42,6 @@ footer {
 }
 
 .footer__section > p {
-  color: var(--gray-5);
+  color: var(--gray-3);
   font-size: var(--font-size-sm);
 }
