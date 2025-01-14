@@ -5,6 +5,7 @@
   align-items: center;
   margin: 0 auto;
   font-family: "Paperlogy-8ExtraBold";
+  overflow: hidden;
 }
 .all {
   width: fit-content;
@@ -44,7 +45,7 @@ button {
   color: #999999;
   background-color: white;
 
-  width: 768px;
+  width: 732px;
 
   padding: 0 10px;
 
@@ -52,11 +53,16 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-
+.maincard {
+  width: 100%;
+  max-width: 732px;
+  margin: 0 auto;
+}
 .maincard > img {
   border-radius: 4px;
-  width: 768px;
+  width: 100%;
   height: 354.13px;
+  object-fit: cover;
 }
 
 .name {
