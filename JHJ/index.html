@@ -4,15 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../../common/reset.css" />
+    <link rel="stylesheet" href="../common/reset.css" />
+    <link rel="stylesheet" href="../common/root.css" />
+    <link rel="stylesheet" href="../common/header.css" />
+    <link rel="stylesheet" href="../common/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="news.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="header.css" />
   </head>
+
   <body>
     <div class="container">
+      <header>
+        <article class="nav__section">
+          <div class="nav__Top">
+            <figure class="nav__Top--items">
+              <div class="logo">
+                <img src="../assert/메가박스.png" alt="" />
+              </div>
+              <div class="nav">
+                <div><i class="fa-solid fa-ticket"></i></div>
+                <div><i class="fa-solid fa-bars"></i></div>
+              </div>
+            </figure>
+            <ul class="navItem">
+              <li>
+                <a href="../PJY/index.html">홈</a>
+              </li>
+              <li><a href="../JHJ/index.html">이벤트</a></li>
+              <li><a href="../WHS/index.html">스토어</a></li>
+              <li><a href="../LGN/index.html">선호극장</a></li>
+            </ul>
+          </div>
+          <div class="nav__Bottom">
+            <figure class="home__button">
+              <img src="../assert/home_icon.png" alt="" />
+              <span>홈</span>
+            </figure>
+            <figure class="reservation__button">
+              <img src="../assert/btn_book_52.png" alt="" />
+            </figure>
+            <figure class="order__button">
+              <img src="../assert/popcorn_icon.png" alt="" />
+              <span>모바일오더</span>
+            </figure>
+          </div>
+        </article>
+      </header>
       <main>
         <section class="topcard">
           <img
@@ -20,45 +61,119 @@
             alt=""
           />
           <div class="allbtn">
-            <button class="btn">
-              <span>전체</span>
-            </button>
-            <button class="btn2">
-              <span>메가pick</span>
-            </button>
-            <button class="btn3">
-              <span>영화</span>
-            </button>
-            <button class="btn4">
-              <span>극장</span>
-            </button>
-            <button class="btn5">
-              <span>제휴/할인</span>
-            </button>
-            <button class="btn6">
-              <span>시사회/무대인사</span>
-            </button>
-            <button class="btn7">
-              <span>지난 이벤트</span>
-            </button>
+            <button class="all">전체</button><button>메가pick</button
+            ><button>영화</button><button>극장</button><button>제휴/할인</button
+            ><button>시사회/무대인사</button><button>지난 이벤트</button>
           </div>
-          <br />
           <button class="search">
-            <span>검색어를 입력해주세요.</span
-            ><i class="fa-solid fa-magnifying-glass"></i>
+            <span>검색어를 입력해주세요. </span>
+            <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </section>
-        <section class="maincard">
+        <div class="bigbox">
+          <section class="maincard">
+            <img
+              src="https://img.megabox.co.kr/SharedImg/event/2025/01/13/ewfBc8aXF2JqmZVm7MKPSaOKEEfKWJa2.jpg"
+              alt=""
+            />
+            <div class="name">
+              <span>&lt;검은수녀들&gt;2주차 무대인사</span>
+            </div>
+            <div class="date"><span>2025.02.01 ~ 2025.02.02</span></div>
+          </section>
+          <section class="maincard">
+            <img
+              src="https://img.megabox.co.kr/SharedImg/event/2025/01/10/8ulXnQfmo8HWQTGDyoG2CMULeXPZuRbT.jpg"
+              alt=""
+            />
+            <div class="name">
+              <span>&lt;검은수녀들&gt;설 연휴 무대인사</span>
+            </div>
+            <div class="date"><span>2025.01.29 ~ 2025.01.30</span></div>
+          </section>
+          <section class="maincard">
+            <img
+              src="https://img.megabox.co.kr/SharedImg/event/2025/01/09/wIIbmTocxjYy08pWtOxJVem1Hx7k0WMI.jpg"
+              alt=""
+            />
+            <div class="name">
+              <span>&lt;말할 수 없는 비밀&gt;개봉주&2주차 무대인사</span>
+            </div>
+            <div class="date"><span>2025.01.28 ~ 2025.02.09</span></div>
+          </section>
+          <section class="maincard">
+            <img
+              src="https://img.megabox.co.kr/SharedImg/event/2025/01/10/87PocmfVNLB1cMbCYi4IYTxedg0qN7VO.jpg"
+              alt=""
+            />
+            <div class="name">
+              <span>&lt;검은수녀들&gt;개봉주 무대인사</span>
+            </div>
+            <div class="date">
+              <span>2025.01.26 ~ 2025.01.26</span>
+            </div>
+          </section>
+          <section class="maincard">
+            <img
+              src="https://img.megabox.co.kr/SharedImg/event/2025/01/09/bd8uRory0Zqop7KwAUXyeNUJEN3lkobN.jpg"
+              alt=""
+            />
+            <div class="name">
+              <span>&lt;카라바조의 그림자&gt;스페셜GV</span>
+            </div>
+            <div class="date"><span>2025.01.23 ~ 2025.01.23</span></div>
+          </section>
+
+          <section class="maincard">
+            <img
+              src="https://img.megabox.co.kr/SharedImg/event/2025/01/09/ueh56CLmuEYTf5EwlkdyZxzbfy6NNN0D.jpg"
+              alt=""
+            />
+            <div class="name"><span>&lt;히트맨2&gt;개봉일 무대인사</span></div>
+            <div class="date"><span>2025.01.22 ~ 2025.01.22</span></div>
+          </section>
+
+          <section class="maincard">
+            <img
+              src="https://img.megabox.co.kr/SharedImg/event/2025/01/09/wz5L7sXBX5qdlI9h3vKjZh0Ba1D8F8WC.jpg"
+              alt=""
+            />
+            <div class="name">
+              <span>&lt;페라리&gt;굿즈패키지 상영회</span>
+            </div>
+            <div class="date"><span>2025.01.19 ~ 2025.01.19</span></div>
+          </section>
+
+          <section class="maincard">
+            <img
+              src="https://img.megabox.co.kr/SharedImg/event/2025/01/09/KbXVcO1VhycskvSSayPneAu6965IrRg8.jpg"
+              alt=""
+            />
+            <div class="name">
+              <span
+                >&lt;데드데드 데몬즈 디디디디 디스트럭션:파트1&gt;새해 럭키 굿즈
+                상영회</span
+              >
+            </div>
+            <div class="date"><span>2025.01.19 ~ 2025.01.19</span></div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div class="footer__section">
           <img
-            src="https://img.megabox.co.kr/SharedImg/event/2025/01/13/ewfBc8aXF2JqmZVm7MKPSaOKEEfKWJa2.jpg"
+            src="https://m.megabox.co.kr/static/mb/images/2024renewal/common/logo_megabox_g.png"
             alt=""
           />
-          <br />
-          <span class="blacksister">&lt;검은수녀들&gt;2주차 무대인사</span>
-          <br />
-          <span class="date">2025.02.01 ~ 2025.02.02</span>
-        </section>
-      </main>
+          <ul>
+            <li>이용약관</li>
+            <li>개인정보처리방침</li>
+            <li>위치기반서비스이용약관</li>
+            <li>PC버전</li>
+          </ul>
+          <p class="copy">© MegaboxJoongAng, Inc.</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
