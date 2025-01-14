@@ -57,7 +57,8 @@
   width: 100%;
   display: flex;
   gap: 10px;
-  overflow: hidden;
+  overflow: scroll;
+  overflow-y: hidden;
 }
 
 .event__cardLayout > .event__Layout {
@@ -76,18 +77,18 @@
   border-radius: var(--border-radius-lg);
 }
 
-/* .event__cardLayout::-webkit-scrollbar {
+.event__cardLayout::-webkit-scrollbar {
   height: 9px;
 }
 
 .event__cardLayout::-webkit-scrollbar-thumb {
-  background-color: var(--gray-5);
+  background-color: var(--color-bg);
   border-radius: 10px;
   background-clip: padding-box;
   border: 2px solid transparent;
 }
 
 .event__cardLayout::-webkit-scrollbar-track {
-  background-color: var(--gray-3);
+  background-color: var(--color-bg);
   border-radius: 10px;
-} */
+}

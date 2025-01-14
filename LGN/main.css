@@ -95,24 +95,25 @@
 .movieBox {
   padding-bottom: 20px;
   height: fit-content;
-  overflow: hidden;
+  overflow: scroll;
+  overflow-y: hidden;
 }
 
-/* .movieBox::-webkit-scrollbar {
+.movieBox::-webkit-scrollbar {
   height: 9px;
 }
 
 .movieBox::-webkit-scrollbar-thumb {
-  background-color: var(--gray-5);
+  background-color: var(--color-bg5);
   border-radius: 10px;
   background-clip: padding-box;
   border: 2px solid transparent;
 }
 
 .movieBox::-webkit-scrollbar-track {
-  background-color: var(--gray-3);
+  background-color: var(--color-bg);
   border-radius: 10px;
-} */
+}
 
 .imgBox {
   position: relative;

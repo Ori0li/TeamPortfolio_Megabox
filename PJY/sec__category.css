@@ -52,7 +52,8 @@
 .movie {
   width: 100%;
 
-  overflow: hidden;
+  overflow: scroll;
+  overflow-y: hidden;
 }
 
 .movieLayout {
@@ -144,18 +145,18 @@
   background-color: var(--color-red);
 }
 
-/* .movie::-webkit-scrollbar {
+.movie::-webkit-scrollbar {
   height: 9px;
 }
 
 .movie::-webkit-scrollbar-thumb {
-  background-color: var(--gray-5);
+  background-color: var(--color-bg);
   border-radius: 10px;
   background-clip: padding-box;
   border: 2px solid transparent;
 }
 
 .movie::-webkit-scrollbar-track {
-  background-color: var(--gray-3);
+  background-color: var(--color-bg);
   border-radius: 10px;
-} */
+}

@@ -12,7 +12,8 @@
 
 .attention__section > .attention {
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
+  overflow-y: hidden;
 }
 
 .attention__section > .attention > .productLayout {
@@ -36,18 +37,18 @@
   font-size: var(--font-size-sm);
 }
 
-/* .attention::-webkit-scrollbar {
+.attention::-webkit-scrollbar {
   height: 9px;
 }
 
 .attention::-webkit-scrollbar-thumb {
-  background-color: var(--gray-5);
+  background-color: var(---color-bg);
   border-radius: 10px;
   background-clip: padding-box;
   border: 2px solid transparent;
 }
 
 .attention::-webkit-scrollbar-track {
-  background-color: var(--gray-3);
+  background-color: var(--color-bg);
   border-radius: 10px;
-} */
+}
