@@ -23,6 +23,7 @@
   border-radius: 5px;
   background-color: inherit;
   color: var(--gray-5);
+  padding: 0 5px;
 }
 
 .theater {
@@ -173,8 +174,9 @@
   width: fit-content;
   font-size: var(--font-size-sm);
   border: none;
+  color: var(--color-text);
   background-color: inherit;
-  margin: 10px 0px 15px 3px;
+  margin: 10px 0px 15px 10px;
 }
 
 .cardInfo {
@@ -236,7 +238,8 @@
 
 .chair > i {
   font-size: var(--font-size-xl);
-  padding: 20px 15px;
+  padding: 20px 20px;
+  color: var(--color-text);
 }
 
 .economy {
@@ -282,6 +285,7 @@
   padding: 5px;
   background-color: var(--color-bg);
   font-size: var(--font-size-xs);
+  color: var(--color-text);
 }
 
 .way > li {
