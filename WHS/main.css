@@ -1,5 +1,6 @@
 .store {
   width: 768px;
+  margin: 0 auto;
   background-color: var(--color-bg);
   font-family: Paperlogy-8ExtraBold;
 }
