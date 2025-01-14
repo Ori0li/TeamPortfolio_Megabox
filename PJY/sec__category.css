@@ -19,13 +19,13 @@
 .category__section > .category > .category--item {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .category__section > .category > .category--item > li {
-  font-size: 11px;
+  font-size: 10px;
   border-radius: var(--border-radius-lg);
-  padding: 9px 11px;
+  padding: 7px 8px;
   width: fit-content;
   background-color: var(--gray-2);
   transition: all 0.4s;
@@ -63,7 +63,7 @@
 }
 
 .movieLayout > .movie__card {
-  width: 150px;
+  width: 100px;
 
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@
   text-align: center;
   padding: 6px 0;
 
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-xs);
   color: var(--color-accent);
   transition: all 0.4s;
 }

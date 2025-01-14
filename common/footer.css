@@ -28,7 +28,7 @@ footer {
   display: flex;
   gap: 10px;
   color: var(--gray-3);
-  font-size: var(--font-size-sm);
+  font-size: 10px;
 }
 
 .footer__section > ul > li::after {
