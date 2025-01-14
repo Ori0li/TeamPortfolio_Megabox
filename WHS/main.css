@@ -5,6 +5,7 @@
 }
 .store_main {
   width: 100%;
+  padding-top: 119px;
 }
 .store_main > img {
   width: 768px;
