@@ -36,3 +36,19 @@
 .productLayout > .product__card > p {
   font-size: var(--font-size-sm);
 }
+
+.attention::-webkit-scrollbar {
+  height: 9px;
+}
+
+.attention::-webkit-scrollbar-thumb {
+  background-color: var(--gray-5);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.attention::-webkit-scrollbar-track {
+  background-color: var(--gray-3);
+  border-radius: 10px;
+}

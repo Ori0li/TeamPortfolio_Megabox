@@ -59,3 +59,19 @@
 .preview > .preview__cardLayout > .preview__Layout > .preview__card > h2 {
   font-size: var(--font-size-sm);
 }
+
+.preview__cardLayout::-webkit-scrollbar {
+  height: 9px;
+}
+
+.preview__cardLayout::-webkit-scrollbar-thumb {
+  background-color: var(--gray-5);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+
+.preview__cardLayout::-webkit-scrollbar-track {
+  background-color: var(--gray-3);
+  border-radius: 10px;
+}
