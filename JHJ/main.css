@@ -55,6 +55,8 @@ button {
 
 .maincard > img {
   border-radius: 4px;
+  width: 768px;
+  height: 354.13px;
 }
 
 .name {
