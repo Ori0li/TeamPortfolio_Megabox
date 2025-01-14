@@ -41,4 +41,3 @@
 - 전혜정 (https://github.com/Jeonhj38)
 - 우현서 (https://github.com/hyunseo01)
 - 이광녕 (https://github.com/GN-Lee)
-- 이광녕 (https://github.com/GN-Lee)
